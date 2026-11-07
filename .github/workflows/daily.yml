@@ -13,7 +13,7 @@ jobs:
       - name: Checkout script repository
         uses: actions/checkout@v4
         with:
-          repository: imagCTZN/
+          repository: imagCTZN/action-scripts-and-tests
           path: script-repo                       
 
       - name: Set up Python
